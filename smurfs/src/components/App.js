@@ -4,7 +4,7 @@ import { fetchSmurfInfo, addSmurf } from "../actions/smurfActions";
 import "./App.css";
 
 const App = (props) => {
-  const { fetchSmurfInfo } = props;
+  // const { fetchSmurfInfo } = props;
 
   const [formValues, setFormValues] = useState({
     name: "",
